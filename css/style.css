@@ -1,0 +1,39 @@
+body {
+    background-color: #2C2C2C;
+}
+
+.navbar {
+    
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-list-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-list-section-button {
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    margin-left: 4px;
+}
+
+.navbar-list-section-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar-list-section-button-account {
+    margin-left: 100%;
+}
+
+.horizontal-line {
+    color: white
+}
