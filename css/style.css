@@ -23,11 +23,13 @@ body {
     font-size: 24px;
     padding: 5px;
     margin-left: 4px;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
 
-.navbar-list-section-button:hover {
-    text-decoration: underline;
-    cursor: pointer;
+.navbar-list-section-button:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .navbar-list-section-button-account {
