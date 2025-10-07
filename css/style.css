@@ -7,35 +7,80 @@ body {
 }
 
 .navbar-list {
-    list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
 }
 
-.navbar-list-section {
+.navbar-list-section .navbar-list-section2 .navbar-list-section3{
     display: flex;
     flex-direction: row;
+}
+
+.navbar-list-section3 {
+    margin-right: 20px;
+}
+
+.navbar-list-section-logo {
+    width: 225px;
+    height: 60px;
 }
 
 .navbar-list-section-button {
+    display: inline-block;
+    position: relative;
     color: white;
     font-size: 24px;
-    padding: 5px;
-    margin-left: 4px;
-    transform-origin: bottom right;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.navbar-list-section-button-disabled {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.navbar-list-section-button-disabled::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+
+.navbar-list-section-button::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom center;
     transition: transform 0.25s ease-out;
 }
 
 .navbar-list-section-button:hover::after {
     transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-.navbar-list-section-button-account {
-    margin-left: 100%;
+    transform-origin: bottom center;
 }
 
 .horizontal-line {
     color: white
+}
+
+.nolink {
+    text-decoration: none;
+    color: white;
 }
