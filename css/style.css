@@ -90,17 +90,78 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
-    height: 100dvh;
     justify-content: center;
     align-items: center;
 }
 
 .login-logo {
-    height: 200px;
+    height: 100px;
 }
 
 .signin-up-button {
     height: 50px;
     width: 100px;
     border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: white;
+    width: fit-content;
+    padding: 50px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.welcome-text {
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.text-login-page {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: black;
+}
+
+.details {
+    margin-bottom: 10px;
+    height: 25px;
+    width: 350px;
+    border-radius: 8px;
+    padding: 5px;
+    border: solid;
+}
+
+.remember-forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.take-to-signup {
+    display: flex;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    color: blue;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.sign-up:hover {
+    background: none;
 }
