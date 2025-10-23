@@ -1,3 +1,3 @@
-document.getElementById("sign-up-button").addEventListener('click', () => {
+document.getElementById("sign-up").addEventListener('click', () => {
     console.log("Sign Up")
 });

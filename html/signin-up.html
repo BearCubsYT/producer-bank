@@ -12,26 +12,26 @@
             <div class="center login">
                 <h1 class="welcome-text">Welcome Back!</h1>
                 <p class="text-login-page">Please enter your details.</p>
-                <input class="details" type="text" placeholder="Username">
-                <input class="details" type="text" placeholder="Password">
+                <input class="details" id="username" type="text" placeholder="Username">
+                <input class="details" id="password" type="text" placeholder="Password">
                 <div class="remember-forgot">
                     <div>
                         <label class="text-login-page" for="checkbox">Remember Me?</label>
                         <input class="text-login-page" type="checkbox">
                     </div>
     
-                    <button class="text-login-page sign-up">Forgot Password?</a>
+                    <a class="text-login-page sign-up forgot">Forgot Password?</a>
                 </div>
-                <button class="signin-up-button" id="sign-in-button">Sign In</button>
+                <button id="sign-in">Sign In</button>
     
                 <div class="take-to-signup">
                     <p class="text-login-page">Don't have an account?&nbsp;</p>
 
-                    <a class="sign-up text-login-page">&nbsp;Sign Up Here!</a>
+                    <a class="sign-up text-login-page" id="sign-up">&nbsp;Sign Up Here!</a>
                 </div>
             </div>
         </div>
     </body>
-    <script src="../js/sign-in.js"></script>
+    <script type="module" src="../js/sign-in.js"></script>
     <script src="../js/sign-up.js"></script>
 </html>
