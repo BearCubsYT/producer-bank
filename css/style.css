@@ -177,3 +177,7 @@ body {
 .forgot {
     margin-bottom: 50px;
 }
+
+#incorrect {
+    color: #a50000;
+}
