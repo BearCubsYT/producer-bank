@@ -1,7 +1,22 @@
 {
     "BearCubs": {
-        "Password": "hehe",
+        "Password": "YourMother",
         "First Name": "Jaiden",
         "Last Name": "Payson"
+    },
+    "Rxdiant": {
+        "Password": "YourFather",
+        "First Name": "Pickle",
+        "Last Name": "Rick"
+    },
+    "Jiorno": {
+        "Password": "YourAunt",
+        "First Name": "White",
+        "Last Name": "Monster"
+    },
+    "MushyMeow": {
+        "Password": "YourUncle",
+        "First Name": "BBQ",
+        "Last Name": "Sauce"
     }
 }
